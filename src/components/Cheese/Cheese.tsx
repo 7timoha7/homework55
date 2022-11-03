@@ -1,4 +1,5 @@
 import React from 'react';
+import './Cheese.css';
 
 const Cheese = () => {
   return (

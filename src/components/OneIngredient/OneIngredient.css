@@ -1,0 +1,32 @@
+img {
+    width: 100px;
+    height: 100px;
+    size: inherit;
+    border-radius: 35px;
+}
+
+.one-ingredient-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px;
+    border: 5px solid yellow;
+    border-radius: 30px;
+}
+
+.btn-minus {
+    background: url(../../assets/images/delete.png) no-repeat center;
+    background-size: cover;
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.btn-plus {
+    background: url(../../assets/images/plus.png) no-repeat center;
+    background-size: cover;
+    display: block;
+    width: 70px;
+    height: 70px;
+}

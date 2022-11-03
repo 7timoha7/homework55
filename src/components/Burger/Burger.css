@@ -80,35 +80,12 @@
     box-shadow: inset 1px 3px #c9c9c9;
 }
 
-.Meat {
-    width: 80%;
-    height: 8%;
-    background: linear-gradient(#7f3608, #702e05);
-    margin: 2% auto;
-    border-radius: 15px;
-}
-
-.Cheese {
-    width: 90%;
-    height: 4.5%;
-    margin: 2% auto;
-    background: linear-gradient(#f4d004, #d6bb22);
-    border-radius: 20px;
-}
-
 .Salad {
     width: 85%;
     height: 7%;
     margin: 2% auto;
     background: linear-gradient(#228c1d, #91ce50);
     border-radius: 20px;
-}
-
-.Bacon {
-    width: 80%;
-    height: 3%;
-    background: linear-gradient(#bf3813, #c45e38);
-    margin: 2% auto;
 }
 
 .Burger {
@@ -140,4 +117,10 @@
         width: 350px;
         height: 200px;
     }
+}
+
+.price {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
 }
