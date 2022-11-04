@@ -11,7 +11,6 @@ interface Props {
 }
 
 const Burger: React.FC<Props> = (props) => {
-  let key = 0;
   return (
     <div>
       <div className="Burger">
@@ -20,18 +19,15 @@ const Burger: React.FC<Props> = (props) => {
           <div className="Seeds2"></div>
         </div>
         {props.ingredientsBurger.map((item) => {
+          const rand: number = Math.floor(Math.random() * 5000000000000000);
           if (item === 'lettuce') {
-            key++
-            return <Salad key={key}/>
+            return <Salad key={item + rand}/>
           } else if (item === 'bacon') {
-            key++
-            return <Bacon key={key}/>
+            return <Bacon key={item + rand}/>
           } else if (item === 'cheese') {
-            key++
-            return <Cheese key={key}/>
+            return <Cheese key={item + rand}/>
           } else if (item === 'beef') {
-            key++
-            return <Meat key={key}/>
+            return <Meat key={item + rand}/>
           }
           return null
         })}
